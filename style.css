@@ -245,6 +245,25 @@ h2.section-title::after {
     font-size: 0.95rem;
 }
 
+.legal-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.legal-links a {
+    color: var(--text-gray);
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.legal-links a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
 /* --- Footer --- */
 footer {
     background-color: #050505;
